@@ -109,3 +109,6 @@ with open(f"{data_path}outcomes_intra.pkl", "wb") as f:
 
 with open(f"{data_path}outcomes_inter.pkl", "wb") as f:
     pk.dump(outcomes_inter, f)
+    
+with open(f"{data_path}network.pkl", "wb") as f:
+    pk.dump(G, f)
